@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./jsstyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="masterContainer">
+        <div class="titleAndFlowerDiv">
+            <div class="titleDiv">
+                <h2 class="title">Harry's JavaScript Sunflower Calculator</h2>
+            </div>
+            <div class="sunflower"></div>
+        </div>
+        <div class="calcContainer">
+            <div class="calc">
+                <div class="calcOutput">
+                    <h1 id="outputString" class="outputString"></h1>
+                </div>
+                <button class="clear" onclick="clearAll()">CLEAR</button>
+                <button class="parentheses">( )</button>
+                <button id="/" class="divide" onclick="operatorControl(this.id)">/</button>
+                <button id="1" class="one" onclick="inputCollect(this.id)">1</button>
+                <button id="2" class="two" onclick="inputCollect(this.id)">2</button>
+                <button id="3" class="three" onclick="inputCollect(this.id)">3</button>
+                <button id="*" class="multiply" onclick="operatorControl(this.id)">*</button>
+                <button id="4" class="four" onclick="inputCollect(this.id)">4</button>
+                <button id="5" class="five" onclick="inputCollect(this.id)">5</button>
+                <button id="6" class="six" onclick="inputCollect(this.id)">6</button>
+                <button id="+" class="add" onclick="operatorControl(this.id)">+</button>
+                <button id="7" class="seven" onclick="inputCollect(this.id)">7</button>
+                <button id="8" class="eight" onclick="inputCollect(this.id)">8</button>
+                <button id="9" class="nine" onclick="inputCollect(this.id)">9</button>
+                <button id="-" class="subtract" onclick="operatorControl(this.id)">-</button>
+                <button id="0" class="zero" onclick="inputCollect(this.id)">0</button>
+                <button id="." class="decimal" onclick="outputArrayDecimal(this.id)">.</button>
+                <button class="equals" onclick="answerEquals()">=</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./jsindex.js"></script>
+</body>
+
+
+
+
+</html>

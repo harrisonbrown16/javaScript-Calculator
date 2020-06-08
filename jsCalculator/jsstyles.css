@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(253, 251, 245);
+    margin: 0px;
+}
+
+.masterContainer {
+    display: flex;
+    margin: 30px auto;
+}
+
+.titleDiv {
+    max-width: 200px;
+}
+
+.title {
+    font: 17px 'Titillium Web', sans-serif;
+    color: rgba(92, 87, 78, 0.329);
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 10px 20px 10px;
+}
+
+.sunflower {
+    background-image: url("./testFlower.png");
+    background-size: cover;
+    width: 140px;
+    height: 220px;
+    margin: 0px 20px 30px 20px;
+}
+
+.calcContainer {
+    border-left: rgb(92, 87, 78) solid 4px;
+    display: flex;
+    max-width: 500px;
+}
+
+.calcOutput {
+    width: 88%;
+    height: 50px;
+}
+
+.outputString {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0px;
+    text-align: right;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.calc {
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 260px;
+    min-width: 260px;
+    margin: 0px;
+}
+
+.clear, .zero {
+    width: 118px;
+}
+
+button {
+    background-color: rgb(253, 251, 245);
+    font: 28px 'Titillium Web', sans-serif;
+    color: rgb(92, 87, 78);
+    width: 55px;
+    height: 40px;
+    border: 0px;
+    margin: 5px 4px;
+    outline: none;
+    border-radius: 1px;
+}
+
+button:hover {
+    background-color: rgb(240, 239, 239);
+}
